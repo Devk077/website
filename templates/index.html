@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+  <link rel="stylesheet" href="{% static 'css/global.css' %}" />
+  <link rel="stylesheet" href="{% static 'css/index.css' %}" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Radio Canada:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson Pro:wght@800&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" />
+  <link rel="stylesheet" href="{% static 'css/ionicons.min.css' %}">
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+  <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+</head>
+
+<body>
+  <style>
+    .pexels-ella-olsson-1640773-1-parent {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 113.5px var(--padding-xl);
+      box-sizing: border-box;
+      gap: 29px;
+      background-image: url("{% static 'public/frame-33@3x.png' %}");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: top;
+      max-width: 100%;
+    }
+      
+  .mask-group-parent {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: center;
+    padding: 125px var(--padding-xl);
+    box-sizing: border-box;
+    background-image: url("{% static 'public/frame-44@3x.png' %}");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    row-gap: 20px;
+    max-width: 100%;
+    text-align: left;
+    font-size: 28px;
+    color: var(--color-gray-100);
+    font-family: var(--font-poppins);
+}
+  </style>
+  <div class="desktop-5">
+    <header class="header">
+      <div class="top-container">
+        <div class="locoui-logo">
+          <a href="/" class="brand-logo">
+            <img class="locoui-logo-icon" loading="lazy" alt="" src="{% static 'public/hv.png' %}" />
+          </a>
+
+        </div>
+        <div class="navigation-right">
+          <nav class="navigation-menu">
+            <div class="button">
+              <a href="#mission" class="button1">Mission</a>
+            </div>
+            <div class="button2">
+              <a href="#perks" class="button3">Perks</a>
+            </div>
+            <div class="button4">
+              <a href="#about" class="button5">About Us</a>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <section id="home" class="left-content-wrapper">
+      <div class="left-content">
+        <div class="image-content-parent">
+          <div class="image-content">
+            <img class="salad-1625093-1-icon" loading="lazy" alt="" src="{% static 'public/salad-1625093-1@2x.png' %}" />
+
+            <h1 class="transform-your-health">
+              Transform Your Health with Personalized Nutrition
+            </h1>
+            <p class="nutrition-plans-designed">
+              Nutrition plans designed to help you achieve your health and
+              wellness goals, whether you're looking to lose weight, improve
+              your athletic performance, or simply adopt healthier eating
+              habits.
+            </p>
+            <a href="#form" class="button6">
+              <button class="button-wrapper">
+                Book Now
+
+              </button>
+            </a>
+          </div>
+          <img class="whatsapp-image-2024-04-15-at-1-icon" loading="lazy" alt=""
+            src="{% static 'public/whatsapp-image-20240415-at-1857-1@2x.png' %}" />
+        </div>
+      </div>
+    </section>
+    <section id="mission" class="desktop-5-inner">
+      <div class="pexels-ella-olsson-1640773-1-parent">
+        <img class="pexels-ella-olsson-1640773-1-icon" loading="lazy" alt=""
+          src="{% static 'public/pexelsellaolsson1640773-1@2x.png' %}" />
+
+        <h1 class="our-mission-is">
+          "Our mission is to enhance individuals' inner and outer beauty,
+          fostering holistic well-being."
+        </h1>
+        <p class="healvibe-is-dedicated">
+          Healvibe is dedicated to empowering individuals and families to
+          attain optimal health and wellness through personalized nutrition
+          plans and expert guidance. Our holistic approach centers on
+          addressing the distinct needs of each individual, equipping them
+          with the resources and counsel necessary to effect positive
+          transformations in their lives.
+        </p>
+      </div>
+    </section>
+    <section id="perks" class="plans-content-wrapper">
+      <div class="plans-content">
+        <div class="i203-2-parent">
+          <img class="i203-2-icon" loading="lazy" alt="" src="{% static 'public/2002i203-2@2x.png' %}" />
+
+          <div class="nutrition-heading">
+            <h1 class="nutrition-plans-for-container">
+              <p class="nutrition-plans-for">Nutrition Plans For a</p>
+              <p class="healthier-you">healthier You!</p>
+            </h1>
+            <div class="plan-description">
+              <div class="plan-list">
+                <img class="salad-1-icon" loading="lazy" alt="" src="{% static 'public/salad-1@2x.png' %}" />
+
+                <h1 class="custom-nutrition-for-container">
+                  <p class="custom-nutrition">Custom Nutrition</p>
+                  <p class="for-your">for Your Needs</p>
+                </h1>
+                <p class="our-nutrition-plans">
+                  Our nutrition plans are tailored to your specific goals and
+                  preferences, ensuring that you receive the right nutrients
+                  for optimal health.
+                </p>
+              </div>
+              <div class="plan-list1">
+                <img class="life-balance-1-icon" loading="lazy" alt="" src="{% static 'public/lifebalance-1@2x.png' %}" />
+
+                <h1 class="expert-advice-for">
+                  Expert Advice for Your Health
+                </h1>
+                <p class="get-personalized-advice">
+                  Get personalized advice from our health experts who is
+                  dedicated in guiding you towards a healthier lifestyle.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="transform-your-health-with-hea-parent">
+          <h1 class="transform-your-health-container">
+            <p class="transform-your-health1">Transform Your Health with</p>
+            <p class="healvibe">HealVibe</p>
+          </h1>
+          <div class="benefit-list">
+            <div class="b3">
+              <img class="nutrition-plan-1-icon" loading="lazy" alt="" src="{% static 'public/nutritionplan-1@2x.png' %}" />
+
+              <h1 class="long-term-changes">Long-Term changes</h1>
+              <p class="experience-lasting-improvement">
+                Experience lasting improvements in your health and well-being
+                with our holistic solutions.
+              </p>
+            </div>
+            <div class="b5">
+              <img class="heartbeat-2-icon" loading="lazy" alt="" src="{% static 'public/heartbeat-2@2x.png' %}" />
+
+              <h1 class="expert-advice-for1">
+                Expert Advice for Optimal Health
+              </h1>
+              <p class="access-personalized-nutrition">
+                Access personalized nutrition plans and guidance from our team
+                of experts.
+              </p>
+            </div>
+            <div class="b4">
+              <img class="vegan-1-icon" loading="lazy" alt="" src="{% static 'public/vegan-1@2x.png' %}" />
+
+              <h1 class="solutions-for-balanced">
+                solutions for Balanced Living
+              </h1>
+              <p class="a-holistic-approach">
+                A holistic approach to wellness that addresses your physical,
+                mental, and emotional well- being.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="mask-group-parent">
+      <img class="mask-group-icon" loading="lazy" alt="" src="{% static 'public/mask-group@2x.png' %}" />
+
+      <div class="testimonial-content">
+        <div class="from-the-desk-parent">
+          <h2 class="from-the-desk">FROM THE DESK</h2>
+          <b class="dhwani-khurana"> -Dhwani khurana </b>
+          <blockquote class="at-the-heart">
+            "At the heart of our philosophy lies the belief that food is more
+            than just sustenance. It's a dialogue with our bodies. Embrace
+            simplicity and nourish yourself with foods tailored to your body's
+            needs. By addressing underlying factors like hormonal balance and
+            lifestyle choices, we pave the way to optimal health. Don't
+            starve, eat smart."
+          </blockquote>
+          <b class="founder-nutritionist">Founder -Nutritionist / lifestyle counsellor / NLP trainer</b>
+        </div>
+      </div>
+    </section>
+  </div>
+  <footer class="footer-08">
+    <div class="container-fluid px-lg-5">
+      <div class="row">
+        <div class="col-md-9 py-5">
+          <div class="row">
+            <div class="col-md-4 mb-md-0 mb-4">
+              <h2 class="footer-heading">About us</h2>
+              <p>Recognized for in Health and Wellness</p>
+
+              <script src="https://kit.fontawesome.com/bead7ff4f5.js" crossorigin="anonymous"></script>
+
+              <ul class="ftco-footer-social p-0">
+                <li class="fa-brands"><a href="#" title="Twitter"><i class="fa-brands fa-twitter"></i></a></li>
+                <li class="fa-brands"><a href="#" title="Facebook"><i class="fa-brands fa-facebook"></i></a></li>
+                <li class="fa-brands"><a href="#" title="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+              </ul>
+            </div>
+            <div class="col-md-8">
+              <div class="row justify-content-center">
+                <div class="col-md-12 col-lg-9">
+                  <div class="row">
+                    <div class="col-md-4 mb-md-0 mb-4">
+                      <h2 class="footer-heading">Discover</h2>
+                      <ul class="list-unstyled">
+                        <li><a href="#" class="py-1 d-block">Buy &amp; Sell</a></li>
+                        <li><a href="#" class="py-1 d-block">Merchant</a></li>
+                        <li><a href="#" class="py-1 d-block">Giving back</a></li>
+                        <li><a href="#" class="py-1 d-block">Help &amp; Support</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-md-4 mb-md-0 mb-4">
+                      <h2 class="footer-heading">About</h2>
+                      <ul class="list-unstyled">
+                        <li><a href="#" class="py-1 d-block">Staff</a></li>
+                        <li><a href="#" class="py-1 d-block">Team</a></li>
+                        <li><a href="#" class="py-1 d-block">Careers</a></li>
+                        <li><a href="#" class="py-1 d-block">Blog</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-md-4 mb-md-0 mb-4">
+                      <h2 class="footer-heading">Resources</h2>
+                      <ul class="list-unstyled">
+                        <li><a href="#" class="py-1 d-block">Security</a></li>
+                        <li><a href="#" class="py-1 d-block">Global</a></li>
+                        <li><a href="#" class="py-1 d-block">Charts</a></li>
+                        <li><a href="#" class="py-1 d-block">Privacy</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-md-5">
+            <div class="col-md-12">
+              <p class="copyright">
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                Copyright &copy;
+                <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made
+                with <a href="https://colorlib.com" target="_blank">Colorlib.com</a>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-md-5 py-4 aside-stretch-right pl-lg-5">
+          <h2 class="footer-heading footer-heading-white">Book an Appointment Today!</h2>
+          <form id="form" action="#" class="contact-form">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Your Email">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Subject">
+            </div>
+            <div class="form-group">
+              <textarea name="" id="" cols="30" rows="3" class="form-control" placeholder="Message"></textarea>
+            </div>
+            <div class="form-group">
+              <button type="submit" class="form-control submit px-3">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

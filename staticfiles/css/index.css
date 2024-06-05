@@ -1,0 +1,1068 @@
+.locoui-logo-icon {
+  height: 34.1px;
+  width: 34.1px;
+  position: relative;
+  border-radius: 8.03px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.by-team-locofy,
+.locoui-icon {
+  position: relative;
+  display: none;
+}
+.locoui-icon {
+  width: 57.5px;
+  height: 13.6px;
+}
+.by-team-locofy {
+  align-self: stretch;
+  height: 13px;
+  letter-spacing: -0.04em;
+  white-space: nowrap;
+}
+.logo-background {
+  height: 30.7px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 4px;
+}
+.locoui-logo {
+  width: 122.4px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.button1 {
+  text-decoration: none;
+  position: relative;
+  line-height: 20px;
+  color: inherit;
+  display: inline-block;
+  min-width: 34px;
+}
+.button {
+  border-radius: var(--br-7xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-7xs) var(--padding-base);
+}
+.button2:hover,
+.button4:hover,
+.button:hover {
+  background-color: #FFA346;
+  color: white;
+}
+
+.button3 {
+  text-decoration: none;
+  position: relative;
+  line-height: 20px;
+  color: inherit;
+  display: inline-block;
+  min-width: 32px;
+}
+.button2 {
+  border-radius: var(--br-7xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-7xs) var(--padding-base);
+}
+.button5 {
+  text-decoration: none;
+  position: relative;
+  line-height: 20px;
+  color: inherit;
+  display: inline-block;
+  min-width: 35px;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff; /* add a background color to the header */
+  z-index: 1; /* ensure the header is on top of other elements */
+}
+.locoui-logo-icon {
+  width: 200px; /* adjust the width to your liking */
+  height: 40px; /* adjust the height to your liking */
+  object-fit: cover; /* ensure the image is scaled to fit within the container */
+  object-position: center; /* center the image within the container */
+  margin: 10px; /* add some margin to create some space around the image */
+}
+
+.top-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+.button4,
+.navigation-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.button4 {
+  border-radius: var(--br-7xs);
+  overflow: hidden;
+  justify-content: center;
+  padding: var(--padding-7xs) var(--padding-base);
+}
+.navigation-menu {
+  margin: 0;
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--text-small-size);
+  color: var(--dark-gray);
+  font-family: var(--text-small);
+}
+.profile-picture-icon {
+  height: 36px;
+  width: 36px;
+  border-radius: 38px;
+  object-fit: cover;
+}
+.account-section,
+.navigation-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.navigation-right {
+  width: 329px;
+  justify-content: flex-end;
+  gap: 36px;
+  max-width: 100%;
+}
+.header,
+.top-container {
+  align-self: stretch;
+  background-color: var(--color-floralwhite);
+  display: flex;
+  max-width: 100%;
+}
+.top-container {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.header {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xl) 80px;
+  box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  text-align: left;
+  font-size: 11px;
+  color: var(--studio-darkmode-popuplabels-5e6a86);
+  font-family: var(--text-small);
+}
+.salad-1625093-1-icon {
+  width: 127.7px;
+  height: 106px;
+  position: relative;
+  object-fit: contain;
+}
+.transform-your-health {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 60px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.nutrition-plans-designed {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-radio-canada);
+}
+.button6 {
+  position: relative;
+  font-size: var(--text-small-size);
+  font-weight: 700;
+  font-family: var(--text-small);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  min-width: 59px;
+}
+.button-wrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 15px 54px;
+  background-color: #90d26d;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.button-wrapper:hover {
+  background-color: #5c9e3b;
+}
+.image-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 43px;
+  min-width: 370px;
+  max-width: 100%;
+}
+.whatsapp-image-2024-04-15-at-1-icon {
+  height: 559px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  min-width: 370px;
+}
+.image-content-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-3xs);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.left-content,
+.left-content-wrapper {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.left-content {
+  width: 1200px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.left-content-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-55xl);
+  text-align: left;
+  font-size: var(--header-1-size);
+  color: var(--color-black);
+  font-family: var(--header-1);
+}
+.pexels-ella-olsson-1640773-1-icon {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  object-fit: cover;
+  display: none;
+  max-width: 100%;
+}
+.healvibe-is-dedicated,
+.our-mission-is {
+  margin: 0;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.our-mission-is {
+  align-self: stretch;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  text-shadow: 3px 6px 4px rgba(0, 0, 0, 0.25);
+}
+.healvibe-is-dedicated {
+  width: 776px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-radio-canada);
+}
+.desktop-5-inner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 113px;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: 40px;
+  color: var(--color-black);
+  font-family: var(--font-crimson-pro);
+}
+.i203-2-icon {
+  height: 484px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  min-width: 377px;
+  min-height: 484px;
+}
+.healthier-you,
+.nutrition-plans-for {
+  margin: 0;
+}
+.nutrition-plans-for-container {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 60px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.salad-1-icon {
+  width: 128px;
+  height: 90.3px;
+  position: relative;
+  object-fit: cover;
+  mix-blend-mode: darken;
+}
+.custom-nutrition {
+  margin: 0;
+}
+.for-your {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.custom-nutrition-for-container {
+  margin: 0;
+  align-self: stretch;
+  height: 76px;
+  position: relative;
+  font-size: inherit;
+  line-height: 30px;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.our-nutrition-plans {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 20px;
+}
+.plan-list {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 28px;
+  min-width: 172px;
+}
+.life-balance-1-icon {
+  width: 122px;
+  height: 115px;
+  position: relative;
+  object-fit: cover;
+  mix-blend-mode: multiply;
+  flex-shrink: 0;
+}
+.expert-advice-for,
+.get-personalized-advice {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+}
+.expert-advice-for {
+  font-size: inherit;
+  line-height: 30px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.get-personalized-advice {
+  height: 100px;
+  font-size: var(--font-size-base);
+  line-height: 20px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.plan-description,
+.plan-list1 {
+  display: flex;
+  align-items: flex-start;
+}
+.plan-list1 {
+  height: 304px;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-2xl);
+  min-width: 172px;
+}
+.plan-description {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-12xl);
+  text-align: left;
+  font-size: var(--font-size-13xl);
+}
+.i203-2-parent,
+.nutrition-heading {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.nutrition-heading {
+  flex: 0.9655;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0 var(--padding-3xs);
+  box-sizing: border-box;
+  gap: 60px;
+  min-width: 377px;
+}
+.i203-2-parent {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-xl);
+}
+.healvibe,
+.transform-your-health1 {
+  margin: 0;
+}
+.transform-your-health-container {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 60px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.nutrition-plan-1-icon {
+  width: 139px;
+  height: 150px;
+  position: relative;
+  object-fit: cover;
+  mix-blend-mode: multiply;
+}
+.experience-lasting-improvement,
+.long-term-changes {
+  margin: 0;
+  align-self: stretch;
+  height: 70px;
+  position: relative;
+  display: inline-block;
+}
+.long-term-changes {
+  font-size: inherit;
+  line-height: 30px;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: inherit;
+}
+.experience-lasting-improvement {
+  font-size: var(--font-size-base);
+  line-height: 20px;
+}
+.b3 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 284px;
+  max-width: 100%;
+}
+.heartbeat-2-icon {
+  width: 139px;
+  height: 150px;
+  position: relative;
+  object-fit: cover;
+  mix-blend-mode: multiply;
+}
+.access-personalized-nutrition,
+.expert-advice-for1 {
+  margin: 0;
+  align-self: stretch;
+  height: 70px;
+  position: relative;
+  display: inline-block;
+}
+.expert-advice-for1 {
+  font-size: inherit;
+  line-height: 30px;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: inherit;
+}
+.access-personalized-nutrition {
+  font-size: var(--font-size-base);
+  line-height: 20px;
+}
+.b5 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  min-width: 284px;
+  max-width: 100%;
+}
+.vegan-1-icon {
+  width: 139px;
+  height: 150px;
+  position: relative;
+  object-fit: cover;
+  mix-blend-mode: multiply;
+}
+.a-holistic-approach,
+.solutions-for-balanced {
+  margin: 0;
+  align-self: stretch;
+  height: 70px;
+  position: relative;
+  display: inline-block;
+}
+.solutions-for-balanced {
+  font-size: inherit;
+  line-height: 30px;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: inherit;
+}
+.a-holistic-approach {
+  font-size: var(--font-size-base);
+  line-height: 20px;
+}
+.b4,
+.benefit-list {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+.b4 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 284px;
+}
+.benefit-list {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--gap-3xl);
+  font-size: var(--font-size-13xl);
+}
+.transform-your-health-with-hea-parent {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: center;
+  gap: 49px;
+  text-align: left;
+}
+.plans-content,
+.plans-content-wrapper,
+.transform-your-health-with-hea-parent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.plans-content {
+  width: 1180px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 74px;
+}
+.plans-content-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 51px;
+  box-sizing: border-box;
+  text-align: right;
+  font-size: var(--header-1-size);
+  color: var(--color-black);
+  font-family: var(--header-1);
+}
+.mask-group-icon {
+  width: 288px;
+  position: relative;
+  max-height: 100%;
+  object-fit: contain;
+  max-width: 100%;
+}
+.dhwani-khurana,
+.from-the-desk {
+  align-self: stretch;
+  position: relative;
+  font-weight: 700;
+}
+.from-the-desk {
+  margin: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+.dhwani-khurana {
+  font-size: var(--font-size-xl);
+  white-space: pre-wrap;
+}
+.at-the-heart,
+.founder-nutritionist {
+  align-self: stretch;
+  position: relative;
+  color: var(--color-black);
+}
+.at-the-heart {
+  margin: 0;
+  font-size: var(--font-size-5xl);
+  font-family: var(--header-1);
+}
+.founder-nutritionist {
+  font-size: 14px;
+  text-transform: capitalize;
+  font-family: var(--text-small);
+  white-space: pre-wrap;
+}
+.from-the-desk-parent,
+.testimonial-content {
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.from-the-desk-parent {
+  align-self: stretch;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-13xl) var(--padding-xl) var(--padding-13xl) 24px;
+}
+.testimonial-content {
+  width: 792px;
+  padding: 71.5px 0 0;
+  min-width: 792px;
+}
+.desktop-5,
+.mask-group-parent,
+.testimonial-content {
+  display: flex;
+  align-items: flex-start;
+}
+.desktop-5 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-floralwhite);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  mix-blend-mode: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .plans-content {
+    gap: 37px;
+  }
+  .plans-content-wrapper {
+    padding-bottom: 33px;
+    box-sizing: border-box;
+  }
+  .mask-group-icon,
+  .testimonial-content {
+    flex: 1;
+  }
+  .mask-group-parent {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .mask-group-icon {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .transform-your-health {
+    font-size: var(--font-size-23xl);
+    line-height: 48px;
+  }
+  .our-mission-is {
+    font-size: var(--font-size-13xl);
+  }
+  .i203-2-icon {
+    flex: 1;
+  }
+  .nutrition-plans-for-container {
+    font-size: var(--font-size-23xl);
+    line-height: 48px;
+  }
+  .custom-nutrition-for-container,
+  .expert-advice-for {
+    font-size: var(--font-size-7xl);
+    line-height: 24px;
+  }
+  .nutrition-heading {
+    flex: 1;
+  }
+  .i203-2-parent {
+    flex-wrap: wrap;
+  }
+  .transform-your-health-container {
+    font-size: var(--font-size-23xl);
+    line-height: 48px;
+  }
+  .expert-advice-for1,
+  .long-term-changes,
+  .solutions-for-balanced {
+    font-size: var(--font-size-7xl);
+    line-height: 24px;
+  }
+  .mask-group-icon {
+    flex: 1;
+  }
+  .testimonial-content {
+    flex: 1;
+    min-width: 100%;
+  }
+  .mask-group-parent {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .transform-your-health {
+    font-size: var(--font-size-23xl);
+    line-height: 48px;
+  }
+  .our-mission-is {
+    font-size: var(--font-size-13xl);
+  }
+  .i203-2-icon {
+    flex: 1;
+  }
+  .nutrition-plans-for-container {
+    font-size: var(--font-size-23xl);
+    line-height: 48px;
+  }
+  .custom-nutrition-for-container,
+  .expert-advice-for {
+    font-size: var(--font-size-7xl);
+    line-height: 24px;
+  }
+  .nutrition-heading {
+    flex: 1;
+  }
+  .i203-2-parent {
+    flex-wrap: wrap;
+  }
+  .transform-your-health-container {
+    font-size: var(--font-size-23xl);
+    line-height: 48px;
+  }
+  .expert-advice-for1,
+  .long-term-changes,
+  .solutions-for-balanced {
+    font-size: var(--font-size-7xl);
+    line-height: 24px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .transform-your-health {
+    font-size: var(--font-size-23xl);
+    line-height: 48px;
+  }
+  .our-mission-is {
+    font-size: var(--font-size-13xl);
+  }
+  .i203-2-icon {
+    flex: 1;
+  }
+  .nutrition-plans-for-container {
+    font-size: var(--font-size-23xl);
+    line-height: 48px;
+  }
+  .custom-nutrition-for-container,
+  .expert-advice-for {
+    font-size: var(--font-size-7xl);
+    line-height: 24px;
+  }
+  .nutrition-heading {
+    flex: 1;
+  }
+  .i203-2-parent {
+    flex-wrap: wrap;
+  }
+  .transform-your-health-container {
+    font-size: var(--font-size-23xl);
+    line-height: 48px;
+  }
+  .expert-advice-for1,
+  .long-term-changes,
+  .solutions-for-balanced {
+    font-size: var(--font-size-7xl);
+    line-height: 24px;
+  }
+  .testimonial-content {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 975px) {
+  .header {
+    height: 40px;
+    padding: 0 20px;
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .transform-your-health {
+    font-size: var(--font-size-23xl);
+    line-height: 48px;
+  }
+  .our-mission-is {
+    font-size: var(--font-size-13xl);
+  }
+  .i203-2-icon {
+    flex: 1;
+  }
+  .nutrition-plans-for-container {
+    font-size: var(--font-size-23xl);
+    line-height: 48px;
+  }
+  .custom-nutrition-for-container,
+  .expert-advice-for {
+    font-size: var(--font-size-7xl);
+    line-height: 24px;
+  }
+  .nutrition-heading {
+    flex: 1;
+  }
+  .i203-2-parent {
+    flex-wrap: wrap;
+  }
+  .transform-your-health-container {
+    font-size: var(--font-size-23xl);
+    line-height: 48px;
+  }
+  .expert-advice-for1,
+  .long-term-changes,
+  .solutions-for-balanced {
+    font-size: var(--font-size-7xl);
+    line-height: 24px;
+  }
+  .desktop-5 {
+    gap: var(--gap-16xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .header {
+    height: 40px;
+    padding: 0 20px;
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .image-content {
+    gap: var(--gap-3xl);
+    min-width: 100%;
+  }
+  .whatsapp-image-2024-04-15-at-1-icon {
+    min-width: 100%;
+  }
+  .left-content-wrapper {
+    padding-bottom: 48px;
+    box-sizing: border-box;
+  }
+  .pexels-ella-olsson-1640773-1-parent {
+    padding-top: var(--padding-55xl);
+    padding-bottom: var(--padding-55xl);
+    box-sizing: border-box;
+  }
+  .desktop-5-inner {
+    padding-bottom: 73px;
+    box-sizing: border-box;
+  }
+  .plan-description {
+    flex-wrap: wrap;
+    gap: var(--gap-mini);
+  }
+  .nutrition-heading {
+    gap: var(--gap-11xl);
+  }
+  .transform-your-health-with-hea-parent {
+    gap: var(--gap-5xl);
+  }
+  .plans-content {
+    gap: var(--gap-lg);
+  }
+  .mask-group-parent,
+  .plans-content-wrapper {
+    padding-bottom: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+  .mask-group-parent {
+    padding-top: var(--padding-62xl);
+    padding-bottom: var(--padding-62xl);
+  }
+  .desktop-5 {
+    gap: var(--gap-16xl);
+  }
+}
+@media screen and (max-width: 725px) {
+  .header {
+      height: 40px;
+    padding: 0 20px;
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .image-content {
+    gap: var(--gap-2xl);
+    min-width: 100%;
+  }
+  .whatsapp-image-2024-04-15-at-1-icon {
+    min-width: 100%;
+  }
+  .pexels-ella-olsson-1640773-1-parent {
+    padding-top: var(--padding-55xl);
+    padding-bottom: var(--padding-55xl);
+    box-sizing: border-box;
+  }
+  .plan-description {
+    flex-wrap: wrap;
+    gap: var(--gap-mini);
+  }
+  .nutrition-heading {
+    gap: var(--gap-11xl);
+  }
+  .plans-content,
+  .transform-your-health-with-hea-parent {
+    gap: var(--gap-5xl);
+  }
+  .mask-group-parent {
+    padding-top: var(--padding-62xl);
+    padding-bottom: var(--padding-62xl);
+    box-sizing: border-box;
+  }
+  .desktop-5 {
+    gap: var(--gap-12xl);
+  }
+}
+
+
+@media screen and (max-width: 700px) {
+  .image-content {
+    gap: var(--gap-3xl);
+    min-width: 100%;
+  }
+  .whatsapp-image-2024-04-15-at-1-icon {
+    min-width: 100%;
+  }
+  .pexels-ella-olsson-1640773-1-parent {
+    padding-top: var(--padding-55xl);
+    padding-bottom: var(--padding-55xl);
+    box-sizing: border-box;
+  }
+  .plan-description {
+    flex-wrap: wrap;
+    gap: var(--gap-mini);
+  }
+  .nutrition-heading {
+    gap: var(--gap-11xl);
+  }
+  .transform-your-health-with-hea-parent {
+    gap: var(--gap-5xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .navigation-menu {
+    display: none;
+  }
+  .navigation-right {
+    width: 72px;
+    gap: var(--gap-lg);
+  }
+  .transform-your-health {
+    font-size: var(--font-size-12xl);
+    line-height: 36px;
+  }
+  .nutrition-plans-designed {
+    font-size: var(--font-size-base);
+  }
+  .our-mission-is {
+    font-size: var(--font-size-5xl);
+  }
+  .i203-2-icon {
+    min-width: 100%;
+  }
+  .nutrition-plans-for-container {
+    font-size: var(--font-size-12xl);
+    line-height: 36px;
+  }
+  .custom-nutrition-for-container,
+  .expert-advice-for {
+    font-size: var(--font-size-lgi);
+    line-height: 18px;
+  }
+  .nutrition-heading {
+    min-width: 100%;
+  }
+  .transform-your-health-container {
+    font-size: var(--font-size-12xl);
+    line-height: 36px;
+  }
+  .expert-advice-for1,
+  .long-term-changes,
+  .solutions-for-balanced {
+    font-size: var(--font-size-lgi);
+    line-height: 18px;
+  }
+  .from-the-desk {
+    font-size: 22px;
+  }
+  .dhwani-khurana {
+    font-size: var(--font-size-base);
+  }
+  .at-the-heart {
+    font-size: var(--font-size-lgi);
+  }
+  .testimonial-content {
+    padding-top: 46px;
+    box-sizing: border-box;
+  }
+  .desktop-5 {
+    gap: var(--gap-lg);
+  }
+}
